@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deori Redux Counter</title>
+  <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Deori Redux Counter</h1>
+  </header>
+  <main>
+    <div class="counter-body">
+      <div class="display-box">
+        <p id="displayValue">X</p>
+      </div>
+      <div class="button-box">
+        <button type="button" id="increaseButton">Increase</button>
+        <input type="number" name="increaseInput" id="increaseInput">
+        <button type="button" id="decreaseButton">Decrease</button>
+        <input type="number" name="decreaseInput" id="decreaseInput">
+        <button type="button" id="loadButton">Load History List</button>
+      </div>
+      <div class="total-clicks">
+        <p id="totalClicksValue">X</p>
+      </div>
+      <div class="history-box">
+        <ul id="historyList">
+          
+        </ul>
+      </div>
+    </div>
+  </main>
+</body>
+<script src="scripts.js"></script>
+
+</html>
